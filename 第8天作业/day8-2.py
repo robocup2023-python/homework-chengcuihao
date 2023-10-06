@@ -1,6 +1,6 @@
 #  11月1日的题目是哪个呀，因为不太清楚所以直接用第七天最后一个作业来代替了
 import os
-
+from typing import List
 def modify(path: str) -> None: 
     new_lines:list[str]  = []
     with open(path,'r+') as f:
