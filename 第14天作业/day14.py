@@ -1,26 +1,27 @@
 import pandas as pd
-import threading,multiprocessing,time,os,re
+import threading,multiprocessing,time,os
+import xml.etree.ElementTree as ET
 
 dic = {}
 def recoder(dic):
     def timer(func):
         def wrapper(*args, **kwargs):
             st = time.time()
-            result = func(*args, **kwargs)
+            func(*args, **kwargs)
             et = time.time()
-            print(f"pid为{os.getpid()} 线程id为{threading.get_ident()}的函数读取文件{args[0]}的单词数为{result}，运行时长{round(et-st,5)}")
-            dic[args[0]] = result
+            print(f"pid为{os.getpid()} 线程id为{threading.get_ident()}的函数读取文件{args[0]}，运行时长{round(et-st,5)}")
             return result
         return wrapper
     return timer
 
 @recoder(dic)
 def count_word(path):
-    res = 0
-    with open(path, 'r', encoding='utf-8') as f:
-        for line in f:
-            res += len(re.findall(' ', line))+1
-    return res
+    tree = ET.parse(path)
+    root = tree.getroot()
+    for e in root.iter():
+        if e.text:
+            for word in e.text.split():
+                dic[word] = dic.get(word,0)+1
 
 def read_files(path):
     thread_list = []
@@ -59,6 +60,6 @@ def main(path):
 
 if __name__ == '__main__':
     dic.clear()
-    main('download')
+    main('../../download')
     series =pd.Series(dic)
     series.to_csv('result.csv')
