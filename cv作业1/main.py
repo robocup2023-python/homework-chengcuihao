@@ -60,7 +60,7 @@ def Compare_with_different_filter(img):
     f1 = Gauss_filter(31,1)
     f2 = Gauss_filter(3,3)
     f3 = Gauss_filter(31,1)
-    cv2.imshow('3x3, sigma=1', Convolution(img,f1,padding='warp'))
+    cv2.imshow('3x3, sigma=1', Convolution(img,f1))
     cv2.imshow('3x3, sigma=3', Convolution(img,f2))
     cv2.imshow('9x9, sigma=1', Convolution(img,f3))
     cv2.waitKey(0)
