@@ -1,6 +1,0 @@
-Invoking command in '/home/cch/ros_homework/build/image_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cch/ros_homework/src/image_msg -DCMAKE_INSTALL_PREFIX=/home/cch/ros_homework/install/image_msg
-Invoked command in '/home/cch/ros_homework/build/image_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cch/ros_homework/src/image_msg -DCMAKE_INSTALL_PREFIX=/home/cch/ros_homework/install/image_msg
-Invoking command in '/home/cch/ros_homework/build/image_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cch/ros_homework/build/image_msg -- -j20 -l20
-Invoked command in '/home/cch/ros_homework/build/image_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cch/ros_homework/build/image_msg -- -j20 -l20
-Invoking command in '/home/cch/ros_homework/build/image_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cch/ros_homework/build/image_msg
-Invoked command in '/home/cch/ros_homework/build/image_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cch/ros_homework/build/image_msg
