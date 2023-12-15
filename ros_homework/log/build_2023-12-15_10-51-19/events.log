@@ -1,0 +1,272 @@
+[0.000000] (-) TimerEvent: {}
+[0.000299] (-) JobUnselected: {'identifier': 'CannyRealTime'}
+[0.000345] (image_msg) JobQueued: {'identifier': 'image_msg', 'dependencies': OrderedDict()}
+[0.000368] (image_msg) JobStarted: {'identifier': 'image_msg'}
+[0.024423] (image_msg) JobProgress: {'identifier': 'image_msg', 'progress': 'cmake'}
+[0.024721] (image_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/cch/ros_homework/src/image_msg', '-DCMAKE_INSTALL_PREFIX=/home/cch/ros_homework/install/image_msg'], 'cwd': '/home/cch/ros_homework/build/image_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('no_proxy', '192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,127.*,localhost,<local>'), ('USER', 'cch'), ('GIT_ASKPASS', '/home/cch/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/cch'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/cch'), ('TERM_PROGRAM_VERSION', '1.85.0'), ('NO_PROXY', '192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,127.*,localhost,<local>'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7c306747-9b38-403f-b626-90cdb5e64a69.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/cch/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/cch/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cch'), ('NAME', 'LAPTOP-GLPM8L5H'), ('WSL_INTEROP', '/run/WSL/408_interop'), ('http_proxy', 'http://127.0.0.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cch/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/bin/remote-cli:/home/cch/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Bandizip:/mnt/d/anaconda3:/mnt/d/anaconda3/Scripts:/mnt/d/anaconda3/Library/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.1:/mnt/d/MinGW/mingw64/bin:/mnt/c/Program Files (x86)/ZeroTier/One:/mnt/d/Xshell 7:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/opencv/x64/vc16/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Users/0d00/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b770f07451.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/cch/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cch/ros_homework/build/image_msg'), ('CONDA_EXE', '/home/cch/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099752] (-) TimerEvent: {}
+[0.173290] (image_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200072] (-) TimerEvent: {}
+[0.300463] (-) TimerEvent: {}
+[0.400794] (-) TimerEvent: {}
+[0.501125] (-) TimerEvent: {}
+[0.601492] (-) TimerEvent: {}
+[0.651905] (image_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.701611] (-) TimerEvent: {}
+[0.801919] (-) TimerEvent: {}
+[0.902240] (-) TimerEvent: {}
+[0.955058] (image_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.002534] (-) TimerEvent: {}
+[1.052381] (image_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.056484] (image_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.058531] (image_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.059173] (image_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.061864] (image_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.102683] (-) TimerEvent: {}
+[1.168873] (image_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.173247] (image_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.173398] (image_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.173700] (image_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.177443] (image_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.202830] (-) TimerEvent: {}
+[1.276097] (image_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.302970] (-) TimerEvent: {}
+[1.326491] (image_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.327802] (image_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.331576] (image_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.403097] (-) TimerEvent: {}
+[1.447768] (image_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.503234] (-) TimerEvent: {}
+[1.603797] (-) TimerEvent: {}
+[1.610103] (image_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.704011] (-) TimerEvent: {}
+[1.714824] (image_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.804155] (-) TimerEvent: {}
+[1.851460] (image_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.904276] (-) TimerEvent: {}
+[1.950602] (image_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.951189] (image_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.004382] (-) TimerEvent: {}
+[2.104670] (-) TimerEvent: {}
+[2.204978] (-) TimerEvent: {}
+[2.257852] (image_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.258007] (image_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.258048] (image_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.258082] (image_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.270372] (image_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.305110] (-) TimerEvent: {}
+[2.322010] (image_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.330574] (image_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.331106] (image_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.332282] (image_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.348488] (image_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.349728] (image_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/cch/ros_homework/build/image_msg\n'}
+[2.353763] (image_msg) CommandEnded: {'returncode': 0}
+[2.354317] (image_msg) JobProgress: {'identifier': 'image_msg', 'progress': 'build'}
+[2.355209] (image_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cch/ros_homework/build/image_msg', '--', '-j20', '-l20'], 'cwd': '/home/cch/ros_homework/build/image_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('no_proxy', '192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,127.*,localhost,<local>'), ('USER', 'cch'), ('GIT_ASKPASS', '/home/cch/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/cch'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/cch'), ('TERM_PROGRAM_VERSION', '1.85.0'), ('NO_PROXY', '192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,127.*,localhost,<local>'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7c306747-9b38-403f-b626-90cdb5e64a69.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/cch/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/cch/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cch'), ('NAME', 'LAPTOP-GLPM8L5H'), ('WSL_INTEROP', '/run/WSL/408_interop'), ('http_proxy', 'http://127.0.0.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cch/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/bin/remote-cli:/home/cch/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Bandizip:/mnt/d/anaconda3:/mnt/d/anaconda3/Scripts:/mnt/d/anaconda3/Library/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.1:/mnt/d/MinGW/mingw64/bin:/mnt/c/Program Files (x86)/ZeroTier/One:/mnt/d/Xshell 7:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/opencv/x64/vc16/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Users/0d00/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b770f07451.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/cch/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cch/ros_homework/build/image_msg'), ('CONDA_EXE', '/home/cch/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.372072] (image_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.375806] (image_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.379470] (image_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_image_msg\n'}
+[2.405266] (-) TimerEvent: {}
+[2.505700] (-) TimerEvent: {}
+[2.510824] (image_msg) StdoutLine: {'line': b'running egg_info\n'}
+[2.511041] (image_msg) StdoutLine: {'line': b'creating image_msg.egg-info\n'}
+[2.511180] (image_msg) StdoutLine: {'line': b'writing image_msg.egg-info/PKG-INFO\n'}
+[2.511386] (image_msg) StdoutLine: {'line': b'writing dependency_links to image_msg.egg-info/dependency_links.txt\n'}
+[2.511645] (image_msg) StdoutLine: {'line': b'writing top-level names to image_msg.egg-info/top_level.txt\n'}
+[2.511690] (image_msg) StdoutLine: {'line': b"writing manifest file 'image_msg.egg-info/SOURCES.txt'\n"}
+[2.512836] (image_msg) StdoutLine: {'line': b"reading manifest file 'image_msg.egg-info/SOURCES.txt'\n"}
+[2.513079] (image_msg) StdoutLine: {'line': b"writing manifest file 'image_msg.egg-info/SOURCES.txt'\n"}
+[2.527062] (image_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_image_msg_egg\n'}
+[2.549385] (image_msg) StdoutLine: {'line': b'[  6%] Built target image_msg__cpp\n'}
+[2.553452] (image_msg) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.554367] (image_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.554921] (image_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.558648] (image_msg) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/image_msg__rosidl_generator_c.dir/rosidl_generator_c/image_msg/msg/detail/camera_image__functions.c.o\x1b[0m\n'}
+[2.600927] (image_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libimage_msg__rosidl_generator_c.so\x1b[0m\n'}
+[2.605795] (-) TimerEvent: {}
+[2.693415] (image_msg) StdoutLine: {'line': b'[ 22%] Built target image_msg__rosidl_generator_c\n'}
+[2.698537] (image_msg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.698750] (image_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.698923] (image_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.704465] (image_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/image_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/image_msg/msg/camera_image__type_support.cpp.o\x1b[0m\n'}
+[2.705894] (-) TimerEvent: {}
+[2.719837] (image_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/image_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/image_msg/msg/detail/camera_image__type_support.cpp.o\x1b[0m\n'}
+[2.750095] (image_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/image_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/image_msg/msg/detail/dds_fastrtps/camera_image__type_support.cpp.o\x1b[0m\n'}
+[2.806047] (-) TimerEvent: {}
+[2.863466] (image_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/image_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/image_msg/msg/camera_image__type_support.cpp.o\x1b[0m\n'}
+[2.872204] (image_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/image_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/image_msg/msg/detail/camera_image__type_support.c.o\x1b[0m\n'}
+[2.878719] (image_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libimage_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.887116] (image_msg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/image_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/image_msg/msg/detail/camera_image__type_support_c.cpp.o\x1b[0m\n'}
+[2.892692] (image_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libimage_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.895168] (image_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libimage_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.906189] (-) TimerEvent: {}
+[2.970970] (image_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libimage_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.975601] (image_msg) StdoutLine: {'line': b'[ 64%] Built target image_msg__rosidl_typesupport_introspection_c\n'}
+[2.980036] (image_msg) StdoutLine: {'line': b'[ 64%] Built target image_msg__rosidl_typesupport_cpp\n'}
+[2.980364] (image_msg) StdoutLine: {'line': b'[ 64%] Built target image_msg__rosidl_typesupport_c\n'}
+[2.998416] (image_msg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libimage_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.006395] (-) TimerEvent: {}
+[3.078949] (image_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libimage_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.100675] (image_msg) StdoutLine: {'line': b'[ 70%] Built target image_msg__rosidl_typesupport_introspection_cpp\n'}
+[3.106492] (-) TimerEvent: {}
+[3.137325] (image_msg) StdoutLine: {'line': b'[ 70%] Built target image_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[3.185248] (image_msg) StdoutLine: {'line': b'[ 70%] Built target image_msg__rosidl_typesupport_fastrtps_c\n'}
+[3.193248] (image_msg) StdoutLine: {'line': b'[ 70%] Built target image_msg\n'}
+[3.201123] (image_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.206729] (-) TimerEvent: {}
+[3.307069] (-) TimerEvent: {}
+[3.407278] (image_msg) StdoutLine: {'line': b'[ 74%] Built target image_msg__py\n'}
+[3.407430] (-) TimerEvent: {}
+[3.415335] (image_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/image_msg__rosidl_generator_py.dir/rosidl_generator_py/image_msg/msg/_camera_image_s.c.o\x1b[0m\n'}
+[3.497220] (image_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/image_msg/libimage_msg__rosidl_generator_py.so\x1b[0m\n'}
+[3.507548] (-) TimerEvent: {}
+[3.602139] (image_msg) StdoutLine: {'line': b'[ 80%] Built target image_msg__rosidl_generator_py\n'}
+[3.607708] (-) TimerEvent: {}
+[3.610820] (image_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/image_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/image_msg/_image_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.611288] (image_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/image_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/image_msg/_image_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.611351] (image_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/image_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/image_msg/_image_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.658356] (image_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/image_msg/image_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.658537] (image_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/image_msg/image_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.658581] (image_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/image_msg/image_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.707825] (-) TimerEvent: {}
+[3.720700] (image_msg) StdoutLine: {'line': b'[100%] Built target image_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[3.720907] (image_msg) StdoutLine: {'line': b'[100%] Built target image_msg__rosidl_typesupport_c__pyext\n'}
+[3.720960] (image_msg) StdoutLine: {'line': b'[100%] Built target image_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.725782] (image_msg) CommandEnded: {'returncode': 0}
+[3.749816] (image_msg) JobProgress: {'identifier': 'image_msg', 'progress': 'install'}
+[3.753584] (image_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cch/ros_homework/build/image_msg'], 'cwd': '/home/cch/ros_homework/build/image_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('no_proxy', '192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,127.*,localhost,<local>'), ('USER', 'cch'), ('GIT_ASKPASS', '/home/cch/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/cch'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/cch'), ('TERM_PROGRAM_VERSION', '1.85.0'), ('NO_PROXY', '192.168.*,172.31.*,172.30.*,172.29.*,172.28.*,172.27.*,172.26.*,172.25.*,172.24.*,172.23.*,172.22.*,172.21.*,172.20.*,172.19.*,172.18.*,172.17.*,172.16.*,10.*,127.*,localhost,<local>'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7c306747-9b38-403f-b626-90cdb5e64a69.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/cch/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/cch/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cch'), ('NAME', 'LAPTOP-GLPM8L5H'), ('WSL_INTEROP', '/run/WSL/408_interop'), ('http_proxy', 'http://127.0.0.1:7890'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cch/.vscode-server/bin/af28b32d7e553898b2a91af498b1fb666fdebe0c/bin/remote-cli:/home/cch/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Bandizip:/mnt/d/anaconda3:/mnt/d/anaconda3/Scripts:/mnt/d/anaconda3/Library/bin:/mnt/d/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.1:/mnt/d/MinGW/mingw64/bin:/mnt/c/Program Files (x86)/ZeroTier/One:/mnt/d/Xshell 7:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/OpenSSL-Win64/bin:/mnt/c/opencv/x64/vc16/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Users/0d00/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b770f07451.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/cch/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/cch/ros_homework/build/image_msg'), ('CONDA_EXE', '/home/cch/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.757553] (image_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.757687] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/ament_index/resource_index/rosidl_interfaces/image_msg\n'}
+[3.757784] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg\n'}
+[3.757902] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg\n'}
+[3.758021] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/camera_image.h\n'}
+[3.758103] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.758253] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail\n'}
+[3.758298] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/camera_image__type_support.h\n'}
+[3.758333] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/camera_image__struct.h\n'}
+[3.758406] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/camera_image__functions.h\n'}
+[3.758492] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/camera_image__functions.c\n'}
+[3.758604] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/environment/library_path.sh\n'}
+[3.758643] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/environment/library_path.dsv\n'}
+[3.758734] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_generator_c.so\n'}
+[3.758856] (image_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_generator_c.so" to ""\n'}
+[3.759036] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg\n'}
+[3.759148] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg\n'}
+[3.759238] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.759328] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail\n'}
+[3.759416] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/camera_image__rosidl_typesupport_fastrtps_c.h\n'}
+[3.759504] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[3.759592] (image_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.759680] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg\n'}
+[3.759848] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg\n'}
+[3.759944] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.760034] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail\n'}
+[3.760122] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/camera_image__rosidl_typesupport_introspection_c.h\n'}
+[3.760210] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/camera_image__type_support.c\n'}
+[3.760297] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_typesupport_introspection_c.so\n'}
+[3.760387] (image_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.760548] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_typesupport_c.so\n'}
+[3.760635] (image_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_typesupport_c.so" to ""\n'}
+[3.760724] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg\n'}
+[3.760811] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg\n'}
+[3.760899] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/camera_image.hpp\n'}
+[3.761106] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail\n'}
+[3.761157] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/camera_image__builder.hpp\n'}
+[3.761224] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/camera_image__traits.hpp\n'}
+[3.761312] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/camera_image__struct.hpp\n'}
+[3.761398] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg\n'}
+[3.761486] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg\n'}
+[3.761795] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.761883] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail\n'}
+[3.761972] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/camera_image__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.762060] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/dds_fastrtps\n'}
+[3.762147] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.762234] (image_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.762300] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg\n'}
+[3.762339] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg\n'}
+[3.762398] (image_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail\n'}
+[3.762433] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/camera_image__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.762467] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/include/image_msg/image_msg/msg/detail/camera_image__type_support.cpp\n'}
+[3.762500] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[3.762715] (image_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.762824] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_typesupport_cpp.so\n'}
+[3.762869] (image_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[3.762903] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/environment/pythonpath.sh\n'}
+[3.762935] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/environment/pythonpath.dsv\n'}
+[3.762967] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg-0.0.0-py3.10.egg-info\n'}
+[3.762999] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.763029] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.763060] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.763090] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.763124] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg\n'}
+[3.763154] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/_image_msg_s.ep.rosidl_typesupport_c.c\n'}
+[3.763185] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/libimage_msg__rosidl_generator_py.so\n'}
+[3.763214] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/image_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.763244] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/msg\n'}
+[3.763274] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/msg/_camera_image.py\n'}
+[3.763303] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/msg/_camera_image_s.c\n'}
+[3.763332] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/msg/__init__.py\n'}
+[3.763362] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/image_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.763391] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/image_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.763421] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/__init__.py\n'}
+[3.763450] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/_image_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.763480] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/_image_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.783833] (image_msg) StdoutLine: {'line': b"Listing '/home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg'...\n"}
+[3.783942] (image_msg) StdoutLine: {'line': b"Compiling '/home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/__init__.py'...\n"}
+[3.783982] (image_msg) StdoutLine: {'line': b"Listing '/home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/msg'...\n"}
+[3.784018] (image_msg) StdoutLine: {'line': b"Compiling '/home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/msg/__init__.py'...\n"}
+[3.784049] (image_msg) StdoutLine: {'line': b"Compiling '/home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/msg/_camera_image.py'...\n"}
+[3.786675] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/image_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.786833] (image_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/image_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.786884] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/image_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.786961] (image_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/image_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.787042] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/image_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.787162] (image_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cch/ros_homework/install/image_msg/local/lib/python3.10/dist-packages/image_msg/image_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.787281] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_generator_py.so\n'}
+[3.787403] (image_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cch/ros_homework/install/image_msg/lib/libimage_msg__rosidl_generator_py.so" to ""\n'}
+[3.787451] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/msg/CameraImage.idl\n'}
+[3.787595] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/msg/CameraImage.msg\n'}
+[3.787643] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/ament_index/resource_index/package_run_dependencies/image_msg\n'}
+[3.787703] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/ament_index/resource_index/parent_prefix_path/image_msg\n'}
+[3.787776] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/environment/ament_prefix_path.sh\n'}
+[3.787854] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/environment/ament_prefix_path.dsv\n'}
+[3.787929] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/environment/path.sh\n'}
+[3.787996] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/environment/path.dsv\n'}
+[3.788068] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/local_setup.bash\n'}
+[3.788167] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/local_setup.sh\n'}
+[3.788346] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/local_setup.zsh\n'}
+[3.788404] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/local_setup.dsv\n'}
+[3.788479] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/package.dsv\n'}
+[3.788621] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/ament_index/resource_index/packages/image_msg\n'}
+[3.788677] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/export_image_msg__rosidl_generator_cExport.cmake\n'}
+[3.788765] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/export_image_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.788919] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/export_image_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.788991] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/export_image_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.789084] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/image_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.789171] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/image_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.789258] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/image_msg__rosidl_typesupport_cExport.cmake\n'}
+[3.789413] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/image_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.789515] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/export_image_msg__rosidl_generator_cppExport.cmake\n'}
+[3.789606] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/export_image_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.789693] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/export_image_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.789808] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/image_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.789884] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/image_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.789971] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/image_msg__rosidl_typesupport_cppExport.cmake\n'}
+[3.790057] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/image_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.790143] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/export_image_msg__rosidl_generator_pyExport.cmake\n'}
+[3.790230] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/export_image_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.790316] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[3.790402] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.790552] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.790600] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.790634] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.790666] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.790697] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.790728] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/image_msgConfig.cmake\n'}
+[3.790759] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/cmake/image_msgConfig-version.cmake\n'}
+[3.790789] (image_msg) StdoutLine: {'line': b'-- Installing: /home/cch/ros_homework/install/image_msg/share/image_msg/package.xml\n'}
+[3.791515] (image_msg) CommandEnded: {'returncode': 0}
+[3.808169] (-) TimerEvent: {}
+[3.886151] (image_msg) JobEnded: {'identifier': 'image_msg', 'rc': 0}
+[3.886823] (-) EventReactorShutdown: {}

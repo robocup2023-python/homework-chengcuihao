@@ -1,0 +1,28 @@
+[0.034s] Invoking command in '/home/cch/ros_homework/build/image_msg': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cch/ros_homework/build/image_msg -- -j20 -l20
+[0.074s] [  3%] Built target image_msg__cpp
+[0.078s] [  3%] Built target ament_cmake_python_copy_image_msg
+[0.079s] [ 12%] Built target image_msg__rosidl_generator_c
+[0.095s] [ 22%] Built target image_msg__rosidl_typesupport_introspection_c
+[0.097s] [ 32%] Built target image_msg__rosidl_typesupport_cpp
+[0.099s] [ 41%] Built target image_msg__rosidl_typesupport_c
+[0.100s] [ 61%] Built target image_msg__rosidl_typesupport_fastrtps_c
+[0.100s] [ 61%] Built target image_msg__rosidl_typesupport_fastrtps_cpp
+[0.100s] [ 70%] Built target image_msg__rosidl_typesupport_introspection_cpp
+[0.114s] [ 70%] Built target image_msg
+[0.126s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.157s] Traceback (most recent call last):
+[0.157s]   File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 8, in <module>
+[0.157s]     from rosidl_generator_py import generate_py
+[0.157s] ImportError: cannot import name 'generate_py' from 'rosidl_generator_py' (/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py)
+[0.161s] gmake[2]: *** [image_msg__py/CMakeFiles/image_msg__py.dir/build.make:91: rosidl_generator_py/image_msg/_image_msg_s.ep.rosidl_typesupport_fastrtps_c.c] Error 1
+[0.162s] gmake[1]: *** [CMakeFiles/Makefile2:590: image_msg__py/CMakeFiles/image_msg__py.dir/all] Error 2
+[0.162s] gmake[1]: *** Waiting for unfinished jobs....
+[0.222s] running egg_info
+[0.222s] writing image_msg.egg-info/PKG-INFO
+[0.222s] writing dependency_links to image_msg.egg-info/dependency_links.txt
+[0.222s] writing top-level names to image_msg.egg-info/top_level.txt
+[0.225s] reading manifest file 'image_msg.egg-info/SOURCES.txt'
+[0.226s] writing manifest file 'image_msg.egg-info/SOURCES.txt'
+[0.241s] [ 74%] Built target ament_cmake_python_build_image_msg_egg
+[0.241s] gmake: *** [Makefile:146: all] Error 2
+[0.243s] Invoked command in '/home/cch/ros_homework/build/image_msg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/cch/ros_homework/build/image_msg -- -j20 -l20

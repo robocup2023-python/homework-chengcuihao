@@ -1,0 +1,4 @@
+[console_scripts]
+camera = CannyRealTime.camera:main
+fsm = CannyRealTime.fsm:main
+

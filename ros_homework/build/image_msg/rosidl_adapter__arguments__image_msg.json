@@ -1,0 +1,6 @@
+{
+  "package_name": "image_msg",
+  "non_idl_tuples": [
+    "/home/cch/ros_homework/src/image_msg:msg/CameraImage.msg"
+  ]
+}
