@@ -1,0 +1,26 @@
+[  3%] Built target image_msg__cpp
+[  3%] Built target ament_cmake_python_copy_image_msg
+[ 12%] Built target image_msg__rosidl_generator_c
+[ 22%] Built target image_msg__rosidl_typesupport_introspection_c
+[ 32%] Built target image_msg__rosidl_typesupport_cpp
+[ 41%] Built target image_msg__rosidl_typesupport_c
+[ 61%] Built target image_msg__rosidl_typesupport_fastrtps_c
+[ 61%] Built target image_msg__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target image_msg__rosidl_typesupport_introspection_cpp
+[ 70%] Built target image_msg
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 8, in <module>
+    from rosidl_generator_py import generate_py
+ImportError: cannot import name 'generate_py' from 'rosidl_generator_py' (/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py)
+gmake[2]: *** [image_msg__py/CMakeFiles/image_msg__py.dir/build.make:91: rosidl_generator_py/image_msg/_image_msg_s.ep.rosidl_typesupport_fastrtps_c.c] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:590: image_msg__py/CMakeFiles/image_msg__py.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing image_msg.egg-info/PKG-INFO
+writing dependency_links to image_msg.egg-info/dependency_links.txt
+writing top-level names to image_msg.egg-info/top_level.txt
+reading manifest file 'image_msg.egg-info/SOURCES.txt'
+writing manifest file 'image_msg.egg-info/SOURCES.txt'
+[ 74%] Built target ament_cmake_python_build_image_msg_egg
+gmake: *** [Makefile:146: all] Error 2

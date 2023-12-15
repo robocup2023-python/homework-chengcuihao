@@ -1,0 +1,43 @@
+[0.427s] Invoking command in '/home/cch/ros_homework/src/CannyRealTime': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cch/ros_homework/build/CannyRealTime/prefix_override:/home/cch/ros_homework/install/CannyRealTime/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/CannyRealTime build --build-base /home/cch/ros_homework/build/CannyRealTime/build install --record /home/cch/ros_homework/build/CannyRealTime/install.log --single-version-externally-managed
+[0.557s] running egg_info
+[0.557s] creating ../../build/CannyRealTime/CannyRealTime.egg-info
+[0.557s] writing ../../build/CannyRealTime/CannyRealTime.egg-info/PKG-INFO
+[0.558s] writing dependency_links to ../../build/CannyRealTime/CannyRealTime.egg-info/dependency_links.txt
+[0.558s] writing entry points to ../../build/CannyRealTime/CannyRealTime.egg-info/entry_points.txt
+[0.558s] writing requirements to ../../build/CannyRealTime/CannyRealTime.egg-info/requires.txt
+[0.558s] writing top-level names to ../../build/CannyRealTime/CannyRealTime.egg-info/top_level.txt
+[0.558s] writing manifest file '../../build/CannyRealTime/CannyRealTime.egg-info/SOURCES.txt'
+[0.559s] reading manifest file '../../build/CannyRealTime/CannyRealTime.egg-info/SOURCES.txt'
+[0.560s] writing manifest file '../../build/CannyRealTime/CannyRealTime.egg-info/SOURCES.txt'
+[0.560s] running build
+[0.560s] running build_py
+[0.560s] creating /home/cch/ros_homework/build/CannyRealTime/build
+[0.560s] creating /home/cch/ros_homework/build/CannyRealTime/build/lib
+[0.560s] creating /home/cch/ros_homework/build/CannyRealTime/build/lib/CannyRealTime
+[0.560s] copying CannyRealTime/fsm.py -> /home/cch/ros_homework/build/CannyRealTime/build/lib/CannyRealTime
+[0.560s] copying CannyRealTime/camera.py -> /home/cch/ros_homework/build/CannyRealTime/build/lib/CannyRealTime
+[0.560s] copying CannyRealTime/__init__.py -> /home/cch/ros_homework/build/CannyRealTime/build/lib/CannyRealTime
+[0.561s] running install
+[0.561s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.561s]   warnings.warn(
+[0.561s] running install_lib
+[0.562s] creating /home/cch/ros_homework/install/CannyRealTime/lib/python3.10/site-packages/CannyRealTime
+[0.562s] copying /home/cch/ros_homework/build/CannyRealTime/build/lib/CannyRealTime/fsm.py -> /home/cch/ros_homework/install/CannyRealTime/lib/python3.10/site-packages/CannyRealTime
+[0.562s] copying /home/cch/ros_homework/build/CannyRealTime/build/lib/CannyRealTime/camera.py -> /home/cch/ros_homework/install/CannyRealTime/lib/python3.10/site-packages/CannyRealTime
+[0.562s] copying /home/cch/ros_homework/build/CannyRealTime/build/lib/CannyRealTime/__init__.py -> /home/cch/ros_homework/install/CannyRealTime/lib/python3.10/site-packages/CannyRealTime
+[0.562s] byte-compiling /home/cch/ros_homework/install/CannyRealTime/lib/python3.10/site-packages/CannyRealTime/fsm.py to fsm.cpython-310.pyc
+[0.563s] byte-compiling /home/cch/ros_homework/install/CannyRealTime/lib/python3.10/site-packages/CannyRealTime/camera.py to camera.cpython-310.pyc
+[0.563s] byte-compiling /home/cch/ros_homework/install/CannyRealTime/lib/python3.10/site-packages/CannyRealTime/__init__.py to __init__.cpython-310.pyc
+[0.563s] running install_data
+[0.563s] creating /home/cch/ros_homework/install/CannyRealTime/share/ament_index
+[0.564s] creating /home/cch/ros_homework/install/CannyRealTime/share/ament_index/resource_index
+[0.564s] creating /home/cch/ros_homework/install/CannyRealTime/share/ament_index/resource_index/packages
+[0.564s] copying resource/CannyRealTime -> /home/cch/ros_homework/install/CannyRealTime/share/ament_index/resource_index/packages
+[0.564s] copying package.xml -> /home/cch/ros_homework/install/CannyRealTime/share/CannyRealTime
+[0.564s] running install_egg_info
+[0.565s] Copying ../../build/CannyRealTime/CannyRealTime.egg-info to /home/cch/ros_homework/install/CannyRealTime/lib/python3.10/site-packages/CannyRealTime-0.0.0-py3.10.egg-info
+[0.566s] running install_scripts
+[0.578s] Installing camera script to /home/cch/ros_homework/install/CannyRealTime/lib/CannyRealTime
+[0.578s] Installing fsm script to /home/cch/ros_homework/install/CannyRealTime/lib/CannyRealTime
+[0.578s] writing list of installed files to '/home/cch/ros_homework/build/CannyRealTime/install.log'
+[0.590s] Invoked command in '/home/cch/ros_homework/src/CannyRealTime' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/cch/ros_homework/build/CannyRealTime/prefix_override:/home/cch/ros_homework/install/CannyRealTime/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/CannyRealTime build --build-base /home/cch/ros_homework/build/CannyRealTime/build install --record /home/cch/ros_homework/build/CannyRealTime/install.log --single-version-externally-managed

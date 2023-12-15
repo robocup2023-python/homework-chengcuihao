@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /home/cch/anaconda3/bin/python3 (found suitable version "3.11.5", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /home/cch/anaconda3/lib/libpython3.11.so (found suitable version "3.11.5", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /home/cch/anaconda3/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /home/cch/anaconda3/include/python3.11
+-- Using PYTHON_LIBRARIES: /home/cch/anaconda3/lib/libpython3.11.so
+-- Found PythonExtra: .so  
+-- Using numpy include directory: /home/cch/anaconda3/lib/python3.11/site-packages/numpy/core/include
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cch/ros_homework/build/image_msg
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target ament_cmake_python_copy_image_msg
+running egg_info
+creating image_msg.egg-info
+writing image_msg.egg-info/PKG-INFO
+writing dependency_links to image_msg.egg-info/dependency_links.txt
+writing top-level names to image_msg.egg-info/top_level.txt
+writing manifest file 'image_msg.egg-info/SOURCES.txt'
+reading manifest file 'image_msg.egg-info/SOURCES.txt'
+writing manifest file 'image_msg.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_image_msg_egg
+[  6%] Built target image_msg__cpp
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [32mBuilding C object CMakeFiles/image_msg__rosidl_generator_c.dir/rosidl_generator_c/image_msg/msg/detail/camera_image__functions.c.o[0m
+[ 22%] [32m[1mLinking C shared library libimage_msg__rosidl_generator_c.so[0m
+[ 22%] Built target image_msg__rosidl_generator_c
+[ 25%] [32mBuilding CXX object CMakeFiles/image_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/image_msg/msg/camera_image__type_support.cpp.o[0m
+[ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/image_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/image_msg/msg/detail/camera_image__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/image_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/image_msg/msg/detail/dds_fastrtps/camera_image__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/image_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/image_msg/msg/camera_image__type_support.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libimage_msg__rosidl_typesupport_cpp.so[0m
+[ 51%] [32m[1mLinking CXX shared library libimage_msg__rosidl_typesupport_c.so[0m
+[ 54%] [32mBuilding C object CMakeFiles/image_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/image_msg/msg/detail/camera_image__type_support.c.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/image_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/image_msg/msg/detail/camera_image__type_support_c.cpp.o[0m
+[ 61%] [32m[1mLinking C shared library libimage_msg__rosidl_typesupport_introspection_c.so[0m
+[ 61%] Built target image_msg__rosidl_typesupport_c
+[ 61%] Built target image_msg__rosidl_typesupport_cpp
+[ 64%] [32m[1mLinking CXX shared library libimage_msg__rosidl_typesupport_introspection_cpp.so[0m
+[ 67%] [32m[1mLinking CXX shared library libimage_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 67%] Built target image_msg__rosidl_typesupport_introspection_c
+[ 70%] [32m[1mLinking CXX shared library libimage_msg__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] Built target image_msg__rosidl_typesupport_introspection_cpp
+[ 70%] Built target image_msg__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target image_msg__rosidl_typesupport_fastrtps_c
+[ 70%] Built target image_msg
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
